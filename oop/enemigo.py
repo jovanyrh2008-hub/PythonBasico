@@ -1,9 +1,9 @@
-class Enemigo:
+class enemigo:
     tipo_enemigo: str
     puntos_energia: int = 10
     ataque = 1
 
-    def _init_(self, tipo_enemigo, puntos_energia=10, ataque=1):
+    def __init__(self, tipo_enemigo, puntos_energia=10, ataque=1):
         self.__tipo_enemigo = tipo_enemigo
         self.puntos_energia = puntos_energia
         self.ataque = ataque
